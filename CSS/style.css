@@ -1,0 +1,57 @@
+body {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Bungee', cursive !important;
+    color: #212529;
+}
+.p-start{
+    color: #566573;
+}
+.p-end{
+    color: #212529;
+}
+button{
+    font-family: 'Orbitron', sans-serif;
+}
+#displayCalc{
+    color: #000  !important;
+    border: none;
+}
+.on-calc{
+    background: #2ECC71 !important;
+    box-shadow: 0px 0px 15px 3px #2ECC71  !important;
+}
+.off-calc{
+    background: #979A9A !important;
+    box-shadow: inset 0px 0px 35px 8px #4D5656  !important;
+}
+.sizeInput{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    margin: 0px !important;
+    font-size: 50px !important;
+}
+::placeholder{
+    color: #000 !important;
+}
+#calc{
+    border-radius: 10px !important;
+    background-color: #566573 !important;
+}
+.style-btn{
+    border: none;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.color-one{background-color: #2C3E50 !important;}
+.color-two{background-color: #7F8C8D !important;}
+footer{
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 0 !important;
+
+}
